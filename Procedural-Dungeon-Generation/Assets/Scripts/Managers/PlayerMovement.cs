@@ -8,8 +8,6 @@ namespace paper
 {
     public class PlayerMovement : MonoBehaviour
     {
-
-
         public  float velocity;
         public float rotationVelocity;
         Rigidbody rb;

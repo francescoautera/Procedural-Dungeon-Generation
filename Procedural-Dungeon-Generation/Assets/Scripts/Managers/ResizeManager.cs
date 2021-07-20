@@ -7,14 +7,13 @@ namespace paper {
     {
         public DungeonManager manager;
         public List<string> connectionNeed;
-        public SO_RoomRules rules;
-        public Room instanceRoom;
+        Room instanceRoom;
         public List<Room> resizedRooms;
         public bool isDone;
        
 
         [System.Obsolete]
-        public void ResizeRoom(PlayerMovement player) {
+        public void ResizeRoom(PlayerMovement player,SO_RoomRules rules) {
             
             foreach (Room room in manager.createdRooms)
             {
@@ -78,7 +77,7 @@ namespace paper {
         {
             if (connection.connection.name == "Est" || connection.connection.name == "Ovest")
             {
-                GameObject inst = Instantiate(manager.Hallway, resizedRooms[resizedRooms.Count - 1].CheckPosforHallway(connection, resizedRooms[resizedRooms.Count - 1]), Quaternion.identity, manager.hallwayParent);
+                GameObject inst = Instantiate(manager.prefabHallway, resizedRooms[resizedRooms.Count - 1].CheckPosforHallway(connection, resizedRooms[resizedRooms.Count - 1]), Quaternion.identity, manager.hallwayParent);
                 inst.transform.Rotate(0, 90, 0);
                 inst.GetComponent<HallWay>().player = movement;
                 manager.hallWays.Add(inst.GetComponent<HallWay>());
@@ -88,14 +87,12 @@ namespace paper {
             }
             else if (connection.connection.name == "Nord" || connection.connection.name == "Sud")
             {
-                GameObject insta = Instantiate(manager.Hallway, resizedRooms[resizedRooms.Count - 1].CheckPosforHallway(connection, resizedRooms[resizedRooms.Count - 1]), Quaternion.identity, manager.hallwayParent);
+                GameObject insta = Instantiate(manager.prefabHallway, resizedRooms[resizedRooms.Count - 1].CheckPosforHallway(connection, resizedRooms[resizedRooms.Count - 1]), Quaternion.identity, manager.hallwayParent);
                 insta.GetComponent<HallWay>().player = movement;
                 manager.hallWays.Add(insta.GetComponent<HallWay>());
                 
 
             }
-
-
 
         }
 

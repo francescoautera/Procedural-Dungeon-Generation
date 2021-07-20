@@ -29,21 +29,7 @@ namespace paper
             return false;
         }
 
-        public bool GetLittleRoom(Connection connection, Room rooms)
-        {
-            if (rooms.connections.Count > 1) { return false; }
-            foreach (ConnectionPoints c in rooms.connections)
-            {
-                if (connection.isOpposite(c.connection))
-                {
-
-                    return true;
-                }
-
-            }
-            return false;
-        }
-
+        
         
        
 

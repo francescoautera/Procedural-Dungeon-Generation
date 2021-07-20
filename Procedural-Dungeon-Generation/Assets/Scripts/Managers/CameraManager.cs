@@ -8,20 +8,18 @@ namespace paper {
         public Camera upCamera;
         Camera playerCamera;
         PlayerMovement movementPlayer;
-        public GameObject Minimap;
-        public bool isChanged;
+        bool isChanged;
         [SerializeField] float velocity;
         public UIManager manager;
 
         private IEnumerator Start()
         {
-            upCamera.enabled = false;
-            isChanged = false;
+            upCamera.enabled = true;
+            isChanged = true;
             yield return new WaitForSeconds(0.5f);
             movementPlayer = FindObjectOfType<PlayerMovement>();
             playerCamera = movementPlayer.GetComponentInChildren<Camera>();
-            
-            playerCamera.enabled = true;
+            playerCamera.enabled = false;
             
 
         }
@@ -29,12 +27,13 @@ namespace paper {
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.M)) {
-                if (!isChanged)
+                if (isChanged)
                 {
-                    ChangeCamera();
+                    ResetCameraPlayer();
+                   
                 }
                 else {
-                    ResetCameraPlayer();
+                    ChangeCamera();
                 }
             }
 
@@ -47,7 +46,6 @@ namespace paper {
             isChanged = true;
             upCamera.enabled = true;
             playerCamera.enabled = false;
-            Minimap.SetActive(false);
             movementPlayer.velocity = 0;
 
         }
@@ -57,7 +55,6 @@ namespace paper {
             isChanged = false;
             upCamera.enabled = false;
             playerCamera.enabled = true;
-            Minimap.SetActive(true);
             movementPlayer.velocity = 150;
         }
 
