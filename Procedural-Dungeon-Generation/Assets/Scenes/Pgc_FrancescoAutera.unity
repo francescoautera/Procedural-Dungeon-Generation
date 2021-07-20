@@ -1014,11 +1014,13 @@ MonoBehaviour:
   hallwayParent: {fileID: 1952073113}
   _playerMovement: {fileID: 0}
   index: 0
+  divisorRangeRoom: 4
+  divisorBoundInstanciateList: 2
   maxRange: 10
-  useRange: 0
-  maxRoom: 0
   firstProb: 0.7
   secondProb: 0.5
+  useRange: 0
+  maxRoom: 0
 --- !u!1 &359832197
 GameObject:
   m_ObjectHideFlags: 0
@@ -4110,7 +4112,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upCamera: {fileID: 1461957856}
-  Minimap: {fileID: 0}
   velocity: 25
   manager: {fileID: 1412724776}
 --- !u!1 &1465742394
@@ -4880,13 +4881,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780470468}
-  m_LocalRotation: {x: 0.720309, y: 0, z: 0, w: 0.69365335}
+  m_LocalRotation: {x: 0.6427876, y: 0, z: 0, w: 0.7660445}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 92.16, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 80, y: 0, z: 0}
 --- !u!1 &1847555308
 GameObject:
   m_ObjectHideFlags: 0

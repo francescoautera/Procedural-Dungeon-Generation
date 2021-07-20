@@ -32,13 +32,17 @@ namespace paper
         const int maxX = 100;// max  number of matrix row 
         const int maxY = 100; // max number of matrix columns 
         int rangeRoom;// number after that change behaviur of Room choice
+        //number that divided rules RangeRoom number; this is a shift of rangeRoom from rules RangeRoom number
+        [SerializeField] int divisorRangeRoom;
+        [SerializeField] int divisorBoundInstanciateList;//number that limit the sup Bound of finalValidateRoom
         [SerializeField] int maxRange; // number after that change Probability
+        [SerializeField] float firstProb; // probability of choose room with 3 o more opens
+        [SerializeField] float secondProb; // probability of choose room with 3 o more opens after maxRange
         public bool useRange; // check if using range Creation
         public bool maxRoom; // check if using  fixed Creation
         private bool isDone = false;
         bool finishDungeon;//check if number of rooms=  rules'room number
-        [SerializeField] float firstProb; // probability of choose room with 3 o more opens
-        [SerializeField] float secondProb; // probability of choose room with 3 o more opens after maxRange
+        
 
         private void Start()
         {
@@ -236,7 +240,7 @@ namespace paper
                             finalValidateRoom.Reverse();
 
                         }
-                        Instanciate(connection, finalValidateRoom.Count / 2);
+                        Instanciate(connection, finalValidateRoom.Count / divisorBoundInstanciateList);
 
 
 
@@ -263,7 +267,7 @@ namespace paper
                             }
                         }
 
-                        Instanciate(connection, finalValidateRoom.Count / 2);
+                        Instanciate(connection, finalValidateRoom.Count / divisorBoundInstanciateList);
                     }
                     TerminateConnection();
 
@@ -537,7 +541,7 @@ namespace paper
             managerUi.roomRangeButton.SetActive(false);
             managerUi.maxRoom.enabled = false;
             managerUi.roomRange.enabled = false;
-            rangeRoom = rules.roomRange + Random.Range(0, (int)rules.roomRange / 4);
+            rangeRoom = rules.roomRange + Random.Range(0, (int)rules.roomRange/divisorRangeRoom);
 
         }
 
