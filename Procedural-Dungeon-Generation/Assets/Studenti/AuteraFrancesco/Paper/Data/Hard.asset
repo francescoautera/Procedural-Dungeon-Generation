@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421925336bff74643bad29dde0611b55, type: 3}
+  m_Name: Hard
+  m_EditorClassIdentifier: 
+  rooms:
+  - {fileID: -6274594714890226369, guid: 60d60d4811f92e544b07c7ac2eabec12, type: 3}
+  - {fileID: -6447656784932936488, guid: 6cd0296aa210c184099b89c7cacfd05b, type: 3}
+  - {fileID: 1230852489353409624, guid: e1e431c9fb7336e46a6f09a8b692922b, type: 3}
+  - {fileID: 6674463579562628774, guid: 3ee92ab1a0c4c3c40b8668190b78ee86, type: 3}
+  - {fileID: 7058053910024157082, guid: a860562cd197db9408df09ee2a804d00, type: 3}
+  - {fileID: -8179767649275298843, guid: e12dc07cd1331364ca25f1256152408f, type: 3}
+  - {fileID: 9030743349689356214, guid: 73da572588a06644b948eeed4968b097, type: 3}
+  - {fileID: -1207446047303574322, guid: 2b31fd5a2894dd94685be4e2248de977, type: 3}
+  - {fileID: 1767626770213333734, guid: 5cd8410324bf1a944a99b3bb0ce184f3, type: 3}
+  - {fileID: 1096441502809676050, guid: 6707c9756340eda47b13562cb1cd5382, type: 3}
+  - {fileID: 3681666894936200035, guid: 2db6856b2ebfbdb4dad7f97a1ea2c46c, type: 3}
+  - {fileID: -2602650211132604731, guid: f5c65500b02b0994eb88a130e2272af3, type: 3}
+  - {fileID: 3891411346419191000, guid: 2463e9a74f50ca6418809358f8fb7087, type: 3}
+  - {fileID: -101808112444990764, guid: ac9f2bc8e580a744490ddf833b6f9b9b, type: 3}
+  - {fileID: 1781011081895976003, guid: 916c857c8a43f1e4c9891304c39e3b28, type: 3}
+  paint: {fileID: 2100000, guid: 383a99a45bafdb448aac2e185235953b, type: 2}
+  roomRange: 100
+  maxRoom: 200
+  EnemySpawned: 1
+  enemy: {fileID: 3488082140030118880, guid: ce44d8afd5b6f464ab286103651527f6, type: 3}
+  cowboy: {fileID: 112068, guid: e3eb61a0656372f439919940bbed8024, type: 3}

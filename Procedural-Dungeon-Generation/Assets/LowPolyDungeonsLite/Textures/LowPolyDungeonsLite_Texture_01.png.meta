@@ -1,0 +1,740 @@
+fileFormatVersion: 2
+guid: 3368dcc05b2e368459930672ab30f04b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3883686580824607038
+    second: LowPolyDungeonsLite_Texture_01_0
+  - first:
+      213: 7196371437600774633
+    second: LowPolyDungeonsLite_Texture_01_1
+  - first:
+      213: -8729095773049757873
+    second: LowPolyDungeonsLite_Texture_01_2
+  - first:
+      213: -7151894690992221549
+    second: LowPolyDungeonsLite_Texture_01_3
+  - first:
+      213: -8701437284998560134
+    second: LowPolyDungeonsLite_Texture_01_4
+  - first:
+      213: -5884659606452941
+    second: LowPolyDungeonsLite_Texture_01_5
+  - first:
+      213: -4677129628290227883
+    second: LowPolyDungeonsLite_Texture_01_6
+  - first:
+      213: 3518802418689915908
+    second: LowPolyDungeonsLite_Texture_01_7
+  - first:
+      213: 2534477867909952160
+    second: LowPolyDungeonsLite_Texture_01_8
+  - first:
+      213: -5238096069832956986
+    second: LowPolyDungeonsLite_Texture_01_9
+  - first:
+      213: -4485321751830888283
+    second: LowPolyDungeonsLite_Texture_01_10
+  - first:
+      213: 8708457641729652799
+    second: LowPolyDungeonsLite_Texture_01_11
+  - first:
+      213: -6420371687722872781
+    second: LowPolyDungeonsLite_Texture_01_12
+  - first:
+      213: 1069397194504599976
+    second: LowPolyDungeonsLite_Texture_01_13
+  - first:
+      213: 4290276579489372701
+    second: LowPolyDungeonsLite_Texture_01_14
+  - first:
+      213: 7244335917312948113
+    second: LowPolyDungeonsLite_Texture_01_15
+  - first:
+      213: 6990130542479864260
+    second: LowPolyDungeonsLite_Texture_01_16
+  - first:
+      213: -4065160093568800543
+    second: LowPolyDungeonsLite_Texture_01_17
+  - first:
+      213: -5978083312372483774
+    second: LowPolyDungeonsLite_Texture_01_18
+  - first:
+      213: 7719866429154408668
+    second: LowPolyDungeonsLite_Texture_01_19
+  - first:
+      213: -5793485525039133907
+    second: LowPolyDungeonsLite_Texture_01_20
+  - first:
+      213: -588148163762928149
+    second: LowPolyDungeonsLite_Texture_01_21
+  - first:
+      213: 6564111371018805351
+    second: LowPolyDungeonsLite_Texture_01_22
+  - first:
+      213: -3125624869791546261
+    second: LowPolyDungeonsLite_Texture_01_23
+  - first:
+      213: -194520451587271247
+    second: LowPolyDungeonsLite_Texture_01_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 4
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c67ff2a1af5a1ac0800000000000000
+      internalID: -3883686580824607038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 819.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e916f9c1b5aed360800000000000000
+      internalID: 7196371437600774633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 819.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f5105a4a50cd680800000000000000
+      internalID: -8729095773049757873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 819.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3921860cbad5fbc90800000000000000
+      internalID: -7151894690992221549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 819.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76425834e84e3780800000000000000
+      internalID: -8701437284998560134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335888aeee71beff0800000000000000
+      internalID: -5884659606452941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 615.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5516e41326f771fb0800000000000000
+      internalID: -4677129628290227883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 615.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c3cc8082c45d030800000000000000
+      internalID: 3518802418689915908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 615.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2bcdf41364c2320800000000000000
+      internalID: 2534477867909952160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 615.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3ac3a806b8e47b0800000000000000
+      internalID: -5238096069832956986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a089c681afe0c1c0800000000000000
+      internalID: -4485321751830888283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 411.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f4d4f518aad870800000000000000
+      internalID: 8708457641729652799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 411.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3309d4377f146e6a0800000000000000
+      internalID: -6420371687722872781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 411.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9fe3e151347de00800000000000000
+      internalID: 1069397194504599976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 411.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a54a471df1a8b30800000000000000
+      internalID: 4290276579489372701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197ba09722d098460800000000000000
+      internalID: 7244335917312948113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 207.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1fe1e61bee10160800000000000000
+      internalID: 6990130542479864260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 207.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8ecbbde66a597c0800000000000000
+      internalID: -4065160093568800543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 207.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249f85096e4990da0800000000000000
+      internalID: -5978083312372483774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 207.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8363f9d99722b60800000000000000
+      internalID: 7719866429154408668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bcca43c97699fa0800000000000000
+      internalID: -5793485525039133907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5cc977c5a76d7f0800000000000000
+      internalID: -588148163762928149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760ada78388681b50800000000000000
+      internalID: 6564111371018805351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64c2febdbc8f94d0800000000000000
+      internalID: -3125624869791546261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPolyDungeonsLite_Texture_01_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5979d0eacec4df0800000000000000
+      internalID: -194520451587271247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
