@@ -828,7 +828,7 @@ namespace paper
             _playerMovement.rotationVelocity = 80;
             yield return new WaitForSeconds(2.5f);
            
-            rules.AddElementinFinalRoom(createdRooms[createdRooms.Count - 1]);
+          
             
             
             

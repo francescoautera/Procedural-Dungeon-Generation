@@ -368,8 +368,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 150
   rotationVelocity: 80
-  sceneWin: {fileID: 0}
-  material: {fileID: 0}
 --- !u!54 &-4860553709471023249
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -500,6 +498,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1541801583817693160}
     m_Modifications:
+    - target: {fileID: 8422892626588785114, guid: 214e08cd5e5d74c458e2a81b7ec2c84c,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422892626588785114, guid: 214e08cd5e5d74c458e2a81b7ec2c84c,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8422892626592999198, guid: 214e08cd5e5d74c458e2a81b7ec2c84c,
         type: 3}
       propertyPath: m_Controller
@@ -508,10 +516,7 @@ PrefabInstance:
     - target: {fileID: 8422892626592999198, guid: 214e08cd5e5d74c458e2a81b7ec2c84c,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'lowerarm_l'\n\tTransform 'upperarm_l'\n\tFrom
-        animation clip 'parry'"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8422892626600249548, guid: 214e08cd5e5d74c458e2a81b7ec2c84c,
         type: 3}
