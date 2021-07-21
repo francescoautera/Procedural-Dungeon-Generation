@@ -32,14 +32,16 @@ namespace paper
         const int maxX = 100;// max  number of matrix row 
         const int maxY = 100; // max number of matrix columns 
         int rangeRoom;// number after that change behaviur of Room choice
+        int maxBoundRange=10; // bounds for range
         //number that divided rules RangeRoom number; this is a shift of rangeRoom from rules RangeRoom number
-        [SerializeField] int divisorRangeRoom;
-        [SerializeField] int divisorBoundInstanciateList;//number that limit the sup Bound of finalValidateRoom
-        [SerializeField] int maxRange; // number after that change Probability
+        int divisorRangeRoom=3;
+        int tmp;
+        int divisorBoundInstanciateList;//number that limit the sup Bound of finalValidateRoom
         [SerializeField] float firstProb; // probability of choose room with 3 o more opens
         [SerializeField] float secondProb; // probability of choose room with 3 o more opens after maxRange
         public bool useRange; // check if using range Creation
         public bool maxRoom; // check if using  fixed Creation
+        [SerializeField] bool randomCreation; // check if you want a creation more flexible
         private bool isDone = false;
         bool finishDungeon;//check if number of rooms=  rules'room number
         
@@ -61,12 +63,22 @@ namespace paper
             _playerMovement = play.GetComponent<PlayerMovement>();
             instanciate.player = _playerMovement;
             finishDungeon = false;
+            tmp = divisorBoundInstanciateList;
 
         }
 
         [System.Obsolete]
         private void Update()
         {
+            if (randomCreation)
+            {
+                
+                divisorBoundInstanciateList = 1;
+                
+            }
+            else {
+                divisorBoundInstanciateList = tmp;
+            }
             //check if creation is fixed or variable
             if (maxRoom)
             {
@@ -249,8 +261,8 @@ namespace paper
                     {
                         if (createdRooms.Count < rules.maxRoom)
                         {
-                            var x = Random.Range(0, maxRange);
-                            if (x < firstProb * maxRange)
+                            var x = Random.Range(0, maxBoundRange);
+                            if (x < firstProb * maxBoundRange)
                             {
 
                                 finalValidateRoom.Reverse();
@@ -259,8 +271,8 @@ namespace paper
                         }
                         else
                         {
-                            var x = Random.Range(0, maxRange);
-                            if (x < secondProb * maxRange)
+                            var x = Random.Range(0, maxBoundRange);
+                            if (x < secondProb * maxBoundRange)
                             {
 
                                 finalValidateRoom.Reverse();
@@ -728,6 +740,7 @@ namespace paper
                 return true;
             }
         }
+
 
 
         //====COROUTINE===

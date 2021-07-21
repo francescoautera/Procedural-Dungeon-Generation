@@ -50,7 +50,7 @@ namespace paper
 
         IEnumerator ShowTime() {
             timerText.enabled=true;
-            timerText.text = "Tempo di Costruzione : " + timerCreation.ToString("#.00") +"s";
+            timerText.text = "Construction Time : " + timerCreation.ToString("#.00") +"s";
             yield return new WaitForSeconds(4.5f);
             timerText.enabled = false;
         }

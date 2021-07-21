@@ -25,7 +25,7 @@ namespace paper
         public TMP_Text roomNumber;
         public GameObject maxRoomButton;
         public GameObject roomRangeButton;
-       
+        public GameObject restartButton;
 
 
         private void Start()
@@ -33,14 +33,14 @@ namespace paper
             showText = false;
             for (int i = 0; i < rules.Count; i++)
             {
-                maxRooms[i].text = "Dungeon valore fisso :" + rules[i].maxRoom;
+                maxRooms[i].text = "fixed value Dungeon :" + rules[i].maxRoom;
 
-                roomRanges[i].text = "Dungeon variabile : " + "(" + (rules[i].roomRange + 1).ToString() + "-" + (2 * rules[i].roomRange + 1).ToString() + ")";
+                roomRanges[i].text = "variable Dungeon : " + "(" + (rules[i].roomRange + 1).ToString() + "-" + (2 * rules[i].roomRange + 1).ToString() + ")";
             }
             maxRoom.enabled = false;
             roomRange.enabled = false;
             roomNumber.enabled = false;
-            
+            restartButton.SetActive(false);
             ActiveObject();
         }
 
@@ -48,6 +48,7 @@ namespace paper
         {
             if (manager.ChangeRooms.isDone)
             {
+                restartButton.SetActive(true);
              
                 if (!showText)
                 {
@@ -65,7 +66,7 @@ namespace paper
 
             roomNumber.enabled = true;
             
-            roomNumber.text = "Stanze Create: " + manager.createdRooms.Count;
+            roomNumber.text = "Room istanciated: " + manager.createdRooms.Count;
             yield return new WaitForSeconds(4.5f);
            
             roomNumber.enabled = false;
@@ -81,8 +82,8 @@ namespace paper
             blocks.SetActive(false);
             maxRoom.enabled = true;
             roomRange.enabled = true;
-            maxRoom.text = "Dungeon valore fisso :" + rules[index].maxRoom;
-            roomRange.text = "Dungeon variabile : " + "(" + (rules[index].roomRange + 1).ToString() + "-" + (2 * rules[index].roomRange + 1).ToString() + ")";
+            maxRoom.text = "fixed value Dungeon :" + rules[index].maxRoom;
+            roomRange.text = "variable Dungeon: " + "(" + (rules[index].roomRange + 1).ToString() + "-" + (2 * rules[index].roomRange + 1).ToString() + ")";
             for (int i = 0; i < rules.Count; i++)
             {
                 maxRooms[i].enabled = false;
