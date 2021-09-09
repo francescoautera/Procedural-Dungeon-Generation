@@ -252,7 +252,7 @@ namespace paper
                             finalValidateRoom.Reverse();
 
                         }
-                        Instanciate(connection, finalValidateRoom.Count / divisorBoundInstanciateList);
+                        Instanciate(connection, finalValidateRoom.Count / 2);
 
 
 
