@@ -1,5 +1,6 @@
 # Procedural-Dungeon-Generator
 Rules of dungeon:
+
 -all rooms have the same size
 - each room has a fixed distance from its neighbors
 - there is 2 method of creation: variable & fixed
